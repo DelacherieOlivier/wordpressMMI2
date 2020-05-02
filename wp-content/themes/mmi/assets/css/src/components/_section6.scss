@@ -1,0 +1,66 @@
+.section6{
+  background-color: $grey2 ;
+  height: 729px;
+  margin-top: -3rem;
+  h2{
+    font-family: SF UI Display bold;
+    font-size: 3.5rem;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.11;
+    letter-spacing: normal;
+    color: $black2;
+    text-align: center;
+    padding-top: 10rem;
+  }
+  div{
+    display: flex;
+    justify-content: center;
+    div{
+      margin-top:2rem;
+      flex-direction: column;
+      padding:3rem;
+      .img{
+        width: 33.5rem;
+        height: 16.8rem;
+      }
+      .La-veille-collaborat{
+        font-family: SF UI Display bold;
+        font-size: 2rem;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.23;
+        letter-spacing: normal;
+        color: $black2;
+      }
+      .FEV-2019{
+        font-family: SF UI Display Light;
+        font-size: 1.4rem;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.64;
+        letter-spacing: normal;
+        color: $another-gray;
+      }
+    }
+  }
+  .Rectangle{
+    width: 24.9rem;
+    height: 5.7rem;
+    border-radius: 2.85rem;
+    background-color: $seafoam-blue;
+
+    p{
+      font-family: SF UI Display bold;
+      font-size: 1.8rem;
+      font-weight: bold;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      text-align: center;
+      color: $white;
+    }
+  }
+}

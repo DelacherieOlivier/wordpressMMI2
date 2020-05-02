@@ -1,0 +1,134 @@
+.section5{
+  .imgback {
+    background-image: url('../../assets/img/arc-cercle-solutions.png');
+    background-repeat: no-repeat;
+    margin-top: 10rem;
+    height: 130rem;
+    div{
+      h2{
+        font-family : SF UI Display bold;
+        font-size: 3.5rem;
+        line-height: 1.11;
+        letter-spacing: normal;
+        color: $black2;
+        text-align: center;
+        padding-top: 5rem;
+      }
+      div{
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 5rem;
+        div{
+          flex-direction: column;
+          .tescontent {
+            width: 5.2rem;
+            height: 6.6rem;
+            object-fit: contain;
+          }
+          .Dirigeant-dentrepri {
+            font-family : SF UI Display bold;
+            font-size: 2.2rem;
+            color: $black2;
+          }
+          .Envie-den-savoir-pl {
+            font-family : SF UI Display Light;
+            font-size: 1.9rem;
+            font-weight: 300;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.42;
+            letter-spacing: normal;
+            color: $another-gray;
+          }
+        }
+      }
+    }
+    .conf {
+      margin-top: 8rem;
+      display: flex;
+      justify-content: space-evenly;
+
+      h2 {
+        opacity: 0.5;
+        font-family: SF UI Display bold;
+        font-size: 6.2rem;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.09;
+        letter-spacing: normal;
+        color: $seafoam-blue;
+        text-align: left;
+      }
+
+      h2::after {
+        content: "";
+        width: 22.0rem;
+        height: 2.1rem;
+        opacity: 0.5;
+        background-color: $seafoam-blue;;
+        display: block;
+      }
+
+      .Combined-Shape {
+        width: 53.8rem;
+        height: 26.8rem;
+        border-radius: 0.7rem;
+        box-shadow: 0 0 3.8rem 0 rgba(60, 144, 140, 0.12);
+        background-color: $white;
+
+        .temoignage1 {
+          width: 7.9rem;
+          height: 7.9rem;
+          object-fit: contain;
+        }
+
+        .Lorem-ipsum-dolor-am {
+          opacity: 0.8;
+          font-family: SF UI Display Light;
+          font-size: 1.7rem;
+          font-weight: 300;
+          font-stretch: normal;
+          font-style: normal;
+          line-height: 1.4;
+          letter-spacing: normal;
+          color: $black3;
+        }
+        .Sarah-Connor-direct {
+          opacity: 0.8;
+          font-family: SF UI Display Medium;
+          font-size: 1.5rem;
+          font-weight: 500;
+          font-stretch: normal;
+          font-style: normal;
+          line-height: 1.8;
+          letter-spacing: normal;
+          color: $black3;
+        }
+        .google {
+          width: 8.3rem;
+          height: 2.7rem;
+          object-fit: contain;
+        }
+      }
+    }
+    .bout{
+      display: flex;
+      margin-left: 100rem;
+      .Oval {
+        width: 1.4rem;
+        height: 1.4rem;
+        border-radius: 2rem;
+        background-color: $black2;
+        margin-right:0.5rem;
+      }
+      .Oval2 {
+        width: 1.4rem;
+        height: 1.4rem;
+        border-radius: 2rem;
+        background-color: $seafoam-blue;
+        margin-right:0.5rem;
+      }
+    }
+  }
+}

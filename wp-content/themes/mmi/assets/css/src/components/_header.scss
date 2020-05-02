@@ -1,0 +1,60 @@
+header {
+  width: 120.2rem;
+  height: 5.4rem;
+  margin: auto;
+  div{
+    display: flex;
+    justify-content: space-around;
+
+    a{
+      text-decoration: none;
+      p{
+        font-family : SF UI Display Medium;
+        font-size: 1.6rem;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: $black2;
+      }
+    }
+    div{
+      p{
+      opacity: 0.5;
+      font-family : SF UI Display Medium;
+      font-size: 1.6rem;
+      font-weight: 500;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      color: $black2;
+      margin-right: 0.5rem;
+      }
+    }
+  }
+  .Rectangle {
+    width: 19.5rem;
+    height: 4.3rem;
+    border-radius: 2.4rem;
+    background-color: $seafoam-blue;
+
+    p{
+      font-family : SF UI Display Medium;
+      font-size: 1.6rem;
+      font-weight: 500;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      text-align: center;
+      color: $white;
+    }
+  }
+}
+.KBCRAWL-logo {
+  width: 18.8rem;
+  height: 4.7rem;
+  object-fit: contain;
+}

@@ -1,0 +1,73 @@
+footer{
+  div{
+    .haut{
+      display: flex;
+      justify-content: space-evenly;
+      padding-top: 5rem;
+      ul{
+        font-family: SF UI Display bold;
+        font-size: 1.8rem;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 2.17;
+        letter-spacing: normal;
+        color: $black2;
+        li{
+          list-style-type: none;
+          opacity: 0.5;
+          font-family: SF UI Display Medium;
+          font-size: 1.5rem;
+          font-weight: 500;
+          font-stretch: normal;
+          font-style: normal;
+          line-height: 1.73;
+          letter-spacing: normal;
+          color: $another-gray;
+        }
+        form{
+          input[type=email]{
+            border: none;
+            color: $another-gray;
+            border-bottom: 0.1rem solid $another-gray;
+
+          }
+          .fleche{
+            width: 1.7rem;
+            height: 1.7rem;
+          }
+        }
+      }
+    }
+    .hr{
+      width: 88%;
+      background-color: $another-gray;
+    }
+    .bas{
+      display: flex;
+      justify-content: space-between;
+      margin-top: 5rem;
+      .gauche{
+        display: flex;
+        margin-left: 11rem;
+        p{
+          margin-right: 1.5rem;
+          font-family: SF UI Display Light;
+          font-size: 1.4rem;
+          font-weight: 300;
+          font-stretch: normal;
+          font-style: normal;
+          line-height: 1.86;
+          letter-spacing: normal;
+          color: $another-gray;
+        }
+      }
+      .droit{
+        margin-right: 10rem;
+        img{
+          margin-left: 1.5rem;
+        }
+      }
+    }
+  }
+}

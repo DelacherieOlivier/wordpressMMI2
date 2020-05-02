@@ -1,0 +1,61 @@
+.section4{
+  margin-top: 5rem;
+  div{
+    display: flex;
+    justify-content: space-between;
+    margin: 1.5rem 0;
+    .text{
+      flex-direction: column;
+      margin-left:15rem;
+      .Pilot {
+        font-family : SF UI Display bold;
+        font-size: 2.5rem;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        letter-spacing: normal;
+        color: $ocean;
+      }
+      .Transformez-linform{
+        font-family : SF UI Display bold;
+        font-size: 3rem;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.11;
+        letter-spacing: normal;
+        color: $black2;
+      }
+      .Solution-denrichiss{
+        font-family : SF UI Display Light;
+        font-size: 1.9rem;
+        font-weight: 300;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.42;
+        letter-spacing: normal;
+        color: $another-gray;
+      }
+      .Rectangle-Copy {
+        width: 23.8rem;
+        height: 5.7rem;
+        border-radius: 2.85rem;
+        background-color: $seafoam-blue;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+
+        .Dcouvrir-Pilot {
+          font-family: SF UI Display bold;
+          font-size: 1.8rem;
+          font-weight: bold;
+          font-stretch: normal;
+          font-style: normal;
+          letter-spacing: normal;
+          text-align: center;
+          color: $white;
+        }
+      }
+    }
+  }
+}

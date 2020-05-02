@@ -1,0 +1,128 @@
+.section2{
+  margin-top: 5rem;
+
+  .imgback{
+    background-image: url('../../assets/img/bg-arrondi-bleu.png');
+    background-repeat: no-repeat;
+    .Group-13{
+      margin-top: 6rem;
+      width: 4rem;
+      height: 4rem;
+      object-fit: contain;
+    }
+    .div1{
+      justify-content: space-around;
+      display: flex;
+      margin-top:15rem;
+      .textleft{
+        display: flex;
+        flex-direction: column;
+        h2{
+          opacity: 0.5;
+          font-family : SF UI Display bold;
+          font-size: 6.2rem;
+          font-weight: bold;
+          font-stretch: normal;
+          font-style: normal;
+          line-height: 1.09;
+          letter-spacing: normal;
+          color: $seafoam-blue;
+        }
+        h2::after{
+          content:"";
+          width: 22.0rem;
+          height: 2.1rem;
+          opacity: 0.5;
+          background-color: $seafoam-blue; ;
+          display: block;
+
+        }
+      }
+      .textright{
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+
+        .Tirez-le-meilleur-pa{
+          font-family : SF UI Display bold;
+          font-size: 2.3rem;
+          font-weight: bold;
+          font-stretch: normal;
+          font-style: normal;
+          line-height: normal;
+          letter-spacing: normal;
+          color: $black2;
+        }
+
+        .LIntelligence-cono{
+          font-family : SF UI Display Light;
+          font-size: 1.9rem;
+          font-weight: 300;
+          font-stretch: normal;
+          font-style: normal;
+          line-height: 1.42;
+          letter-spacing: normal;
+          color: var(--another-grey);
+        }
+      }
+    }
+    .div2{
+      justify-content: space-around;
+      display: flex;
+      margin-top: 24rem;
+      div{
+        .Crawler {
+          font-family : SF UI Display bold;
+          font-size: 2.5rem;
+          font-weight: bold;
+          font-stretch: normal;
+          font-style: normal;
+          line-height: 1.56;
+          letter-spacing: normal;
+          color: $red2;
+        }
+        .Surveillez-tout-ce-q {
+          font-family : SF UI Display bold;
+          font-size: 3.5rem;
+          font-weight: bold;
+          font-stretch: normal;
+          font-style: normal;
+          line-height: 1.11;
+          letter-spacing: normal;
+          color: $black2;
+        }
+        .Solutions-dautomati {
+          font-family : SF UI Display Light;
+          font-size: 1.9rem;
+          font-weight: 300;
+          font-stretch: normal;
+          font-style: normal;
+          line-height: 1.42;
+          letter-spacing: normal;
+          color: $another-gray;
+        }
+        .Rectangle-Copy {
+          width: 23.8rem;
+          height: 5.7rem;
+          border-radius: 2.85rem;
+          background-color: $seafoam-blue;
+          justify-content: center;
+          align-items: center;
+          display: flex;
+          .Dcouvrir-Crawler {
+            font-family : SF UI Display bold;
+            font-size: 1.8rem;
+            font-weight: bold;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: normal;
+            letter-spacing: normal;
+            text-align: center;
+            color: $white;
+          }
+        }
+      }
+    }
+  }
+}
+

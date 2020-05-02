@@ -1,0 +1,45 @@
+.section1{
+  margin-top: 5rem;
+  div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    div{
+      display: flex;
+      flex-direction: column;
+
+      .Exploitez-enfin-tout{
+        font-family : SF UI Display Medium;
+        font-size: 5.2rem;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: $black2;
+      }
+      .Solutions-et-outils {
+        font-family: SF UI Display Medium;
+        font-size: 3.4rem;
+        font-weight: 300;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: $another-gray;
+      }
+    }
+    .img{
+
+      .illu-principal {
+        width: 61.4rem;
+        height: 51.5rem;
+        object-fit: contain;
+      }
+
+    }
+  }
+}
+
+
